@@ -6,7 +6,7 @@ export default function Header(Props:any) {
     <nav className="Header">
       <div>
         <img className="App-logo" src={logo} alt="logo" />
-        <h2>TaskRecord</h2>
+        <h2>TaskManager</h2>
       </div>
       {Props.checklogin ? (<>
           <span>
